@@ -20,19 +20,19 @@ This project provides Python code to generate the Sierpinski Triangle using recu
 ## Usage
 
 1. Clone the repository to your local machine:
-
+```bash
 git clone https://github.com/SemirBaldzhiev/Sierpinski-Triangle-Project
-
+```
 
 2. Navigate to the project directory:
-
+```bash
 cd sierpinski-triangle
-
+```
 
 3. Run the Python script to generate the Sierpinski Triangle:
-
+```bash
 python fractal.py
-
+```
 4. Enter the level of the Sierpiński triangle from the console (should be non-negative integer in range [0-6] (for better view))
 
 ## Requirements
