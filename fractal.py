@@ -32,8 +32,10 @@ def main():
     sierpinski_turtle.pendown()
     sierpinski_turtle.speed(100)
 
-    order = int(input("Enter the order of the Sierpiński triangle: "))
-    size = 200*order
+    order = int(input("Enter the level of the Sierpiński triangle: "))
+    size = 100*order
+    
+    if size == 0: size = 100
 
     draw_sierpinski_triangle(sierpinski_turtle, order, size)
 
